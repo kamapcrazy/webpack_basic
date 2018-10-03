@@ -10,7 +10,6 @@ const {
 const helpers = require('./helpers');
 
 module.exports = {
-    watch: true,
     target: "web",
     entry: {
         main: helpers.root('src', 'main.ts'),
